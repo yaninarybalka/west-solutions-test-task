@@ -1,0 +1,198 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1440px;
+  height: 124px;
+  background-color: white;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+}
+
+header .row {
+  padding: 40px 0;
+  margin: 0;
+}
+
+header input {
+  background: #ffffff;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  width: 492px;
+}
+
+.logo {
+  padding: 0 0 0 60px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+
+  letter-spacing: 1px;
+
+  color: #3563e9;
+}
+
+.icons li {
+  opacity: 0.8;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 90px;
+  display: inline;
+  padding-right: 10px;
+  width: 44px;
+}
+
+.icons {
+  padding-right: 32px;
+}
+
+.side-bar {
+  border-right: 1px solid #f3f5f7;
+  padding: 0;
+}
+.side-bar h7 {
+  color: #94a7cb;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+}
+
+.side-bar ul {
+  padding: 15px 224px 28px 32px;
+}
+
+.display {
+  background-color: #f6f7f9;
+  display: flex;
+}
+
+.main-view {
+  background: #3563e9;
+  border-radius: 10px;
+  color: white;
+  margin: 32px 32px 24px;
+
+  width: 492px;
+  height: 360px;
+}
+
+.main-view h1 {
+  padding: 24px 96px 16px 24px;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+}
+
+.main-view h3 {
+  padding: 0 184px 48px 25px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.main-view img {
+  padding: 0 56px 24px;
+  width: 380px;
+  height: 120px;
+  margin: 20px auto;
+  display: block;
+}
+
+.description {
+  padding: 0 24px;
+  margin: 32px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 492px;
+  height: 508px;
+}
+.description h2 {
+  padding-top: 24px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  color: #1a202c;
+}
+
+.description h7 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3d5278;
+}
+.description p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+
+  letter-spacing: -0.02em;
+
+  color: #3d5278;
+}
+
+.car-details {
+  padding-top: 10px;
+}
+
+.car-details .weak {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #90a3bf;
+}
+
+.car-details .strong {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: -0.02em;
+
+  color: #3d5278;
+}
+
+.final-info {
+  padding: 68px 0 32px 0;
+  margin: 0;
+}
+.price {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 35px;
+
+  color: #1a202c;
+}
+.days,
+.old-price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #90a3bf;
+}
+
+.old-price {
+  text-decoration-line: line-through;
+}
+
+.btn {
+  background: #3563e9;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}

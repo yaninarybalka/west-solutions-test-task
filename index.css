@@ -1,10 +1,6 @@
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
-.container {
-  margin: 0;
-  padding: 0;
-}
 
 header {
   width: 1440px;
@@ -51,6 +47,11 @@ header input {
   padding-right: 32px;
 }
 
+.main {
+  margin: 0;
+  padding: 0;
+}
+
 .side-bar {
   border-right: 1px solid #f3f5f7;
   padding: 0;
@@ -61,23 +62,29 @@ header input {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.02em;
+  padding-bottom: 30px;
 }
 
 .side-bar ul {
-  padding: 15px 224px 28px 32px;
+  list-style: none;
 }
 
 .display {
   background-color: #f6f7f9;
   display: flex;
 }
+.view {
+  margin: 32px 10px 24px;
+}
 
+.pictures {
+  margin: 0;
+}
 .main-view {
   background: #3563e9;
   border-radius: 10px;
   color: white;
-  margin: 32px 32px 24px;
-
+  margin-bottom: 15px;
   width: 492px;
   height: 360px;
 }
@@ -97,10 +104,7 @@ header input {
 }
 
 .main-view img {
-  padding: 0 56px 24px;
-  width: 380px;
-  height: 120px;
-  margin: 20px auto;
+  margin: 0 auto;
   display: block;
 }
 
@@ -109,8 +113,6 @@ header input {
   margin: 32px;
   border-radius: 10px;
   background-color: #ffffff;
-  width: 492px;
-  height: 508px;
 }
 .description h2 {
   padding-top: 24px;
@@ -140,27 +142,31 @@ header input {
   padding-top: 10px;
 }
 
-.car-details .weak {
+.weak {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
-  display: flex;
-  align-items: center;
+
   letter-spacing: -0.02em;
 
   color: #90a3bf;
 }
 
-.car-details .strong {
+.strong {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: right;
+
   letter-spacing: -0.02em;
 
   color: #3d5278;
+}
+
+.car-details .weak,
+.car-details .strong {
+  display: flex;
+  align-items: center;
+  text-align: right;
 }
 
 .final-info {
@@ -195,4 +201,23 @@ header input {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+}
+
+.view1 {
+  background-color: #3563e9;
+  border: 2px solid #3563e9;
+}
+.view1 img {
+  width: 116px;
+  height: 36px;
+  display: block;
+  margin: 40px auto;
+}
+.view1,
+.view2 img,
+.view3 img {
+  width: 148px;
+  height: 124px;
+  border-radius: 10px;
+  margin-right: 15px;
 }

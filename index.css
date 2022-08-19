@@ -250,3 +250,8 @@ header input {
   border: 1px solid #3563e9;
   color: #ffffff;
 }
+
+.review1 {
+  display: flex;
+  flex-direction: row;
+}
